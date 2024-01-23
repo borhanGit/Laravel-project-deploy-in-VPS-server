@@ -53,6 +53,7 @@
 - **Run nano .env**
 - **Run chown -R www-data:www-data storage/**
 - **Run chown -R www-data:www-data bootstrap/**
+- **Run chmod -R 0777 /path/to/your/project/public**
 - **Run php artisan migrate**
 ## Server Setup
 - Run cd /etc/nginx/sites-available
